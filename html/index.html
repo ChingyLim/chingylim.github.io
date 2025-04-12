@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Practice: Webpage to introduce myself</title>
+	<meta charset="UTF-8">	
+	
+			<style>
+				.container {
+					background: #ADD8E6;
+					margin: 0 auto;
+					height: 1000px;
+				}
+
+				#imgone {
+					display: block;
+					margin: auto;
+					padding: 20px;
+				}
+				
+				.column img {
+					flex: 10%;
+					margin-left: 150px;
+					padding: 10px;
+				}
+
+
+				.row {
+					display: flex;
+					padding: 2px;
+					/*align-items: center;*/
+					width: 80%;
+					margin: 0 auto;
+				}
+
+				h1, h2, p, h3 {
+					text-align: center;
+				}
+				
+				#work {
+					text-align: left;
+					margin-left: 200px;
+				}
+						
+			</style>
+</head>
+
+<body>
+	<div class="container">
+		<img id="imgone" src="..\image\self.jpg" alt="self" class="right" width="200px" height="250px">	
+		<h1>Ching Yun, Lim</h1>
+		<h2><u>Hobbies</u></h2>
+		<p>Photography, Cooking, Jogging, Planting, Travelling</p>
+		<hr>
+		<p>My Photography collections</p>
+		<div class="row">
+			<div class="column">
+				<img src="..\image\HotAir.jpg" alt="hot" class="right" width="220px" height="220px">
+			</div>
+
+			<div class="column">
+				<img src="..\image\snowflake.jpg" alt="snow" class="right" width="220px" height="220px">
+			</div>
+
+			<div class="column">
+			 	<img src="..\image\flower.jpg" alt="flower" class="right" width="220px" height="220px">
+			</div>
+
+		</div>
+		<hr>
+		<h2><u>My work</u></h2>
+		<p id="work">I am currently working in the Operations department of a Research entity. I enjoy staying active and continuously learning through my work, which keeps me engaged and motivated.<br>Compared to the private sector, my role has its unique challenges and responsilbities, but it's fulfilling and meaningful.</p>
+		<p id="work">I'm grateful for the flexibility to work from home two days a week - a benefit I deeply appreciate. I also see great value in initiatives like SkillsFuture, which provide opportunities for individuals to upgrade and stay relevant in an ever-evolving professional landscape.I believe in making full use of such platforms to strengthen my capabilites and grow both personally and professionally.</p>
+	</div>
+</body>
+
+</html>
